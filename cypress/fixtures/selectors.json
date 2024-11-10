@@ -1,0 +1,5 @@
+{
+  "mobileSearchIcon": "(//a[@class='search-link d-flex align-items-center'])[1]",
+  "searchInput": "(//*[name()='input'])[1]",
+  "searchIcon": "(//*[name()='svg'][@id='searchIcon'])[2]"
+}

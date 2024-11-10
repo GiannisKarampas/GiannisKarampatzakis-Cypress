@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"],
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "baseUrl": ".", // Set baseUrl to the root of your project
+      "paths": {
+        "@pages/*": ["cypress/pages/*"] // Define paths if you are using alias imports
+      }
+    },
+    "include": [
+      "cypress/**/*.ts",
+      "cypress/support/commands.ts",
+    ]
+}
