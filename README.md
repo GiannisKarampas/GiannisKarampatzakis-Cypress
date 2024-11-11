@@ -47,8 +47,7 @@ GiannisKarampatzakis-Cypress/
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/YourName-Cypress.git
-cd GiannisKarampatzakis-Cypress
+git clone https://github.com/GiannisKarampas/GiannisKarampatzakis-Cypress.git
 ```
 2. Install Dependencies
 ```bash
@@ -61,10 +60,10 @@ npm install
 The following test cases are covered in **cypress/integration/search/search.spec.ts:**
 
 1. Valid Search Results
-Ensures that a valid search term (e.g., "sports") returns relevant results containing the keyword in the search results.
+Ensures that a valid search term (e.g., "football") returns relevant results containing the keyword in the search results.
 
 2. Invalid Search Results
-Checks that an invalid or non-existent search term (e.g., "xyz123") provides appropriate feedback (e.g., "No results found").
+Checks that an invalid or non-existent search term (e.g., "xyzxyz123") provides appropriate feedback.
 
 3. Display of Search Input
 Confirms that the search input field is visible on both desktop and mobile views.
