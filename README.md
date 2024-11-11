@@ -27,7 +27,9 @@ GiannisKarampatzakis-Cypress/
 ├── cypress/
 │   ├── e2e/ 
 │   │   └── search/
-│   │       └── search.spec.ts  
+│   │       └── iconSearch.cy.ts
+│   │       └── invalidSearch.cy.ts
+│   │       └── validSearch.cy.ts
 │   ├── fixtures/
 │   │   └── searchSelectors.ts
 │   │   └── selectors.json    
