@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html": "open cypress/reports/html/index.html",
+    "cypress" : "npx cypress open",
+    "test:headed": "npx cypress run --browser chrome --headed",
+    "test": "npx cypress run --browser chrome",
+    "cypress:run": "npm run test && npm run html"
   },
   "author": "",
   "license": "ISC",

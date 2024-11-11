@@ -68,7 +68,7 @@ Checks that an invalid or non-existent search term (e.g., "xyzxyz123") provides 
 3. Display of Search Input
 Confirms that the search input field is visible on both desktop and mobile views.
 
-- **Running Tests**
+**Running Tests**
 
 - To open the Cypress Test Runner in interactive mode:
 ```bash
@@ -83,6 +83,36 @@ npx cypress run --browser chrome
 - To run tests with Chrome:
 ```bash
 npx cypress run --browser chrome --headed
+```
+
+## Running Tests Using NPM Scripts
+
+The project includes several NPM scripts to simplify running tests and viewing reports. These can be run using the following commands:
+
+- Open Cypress Test Runner in Interactive Mode:
+```bash
+npm run cypress
+```
+
+- Run Tests in Headless Mode with Chrome:
+```bash
+npm run test
+```
+
+- Run Tests in Headed Mode with Chrome:
+```bash
+npm run test:headed
+```
+
+- Generate HTML Report After Test Run:
+```bash
+npm run cypress:run
+```
+This command runs the tests in headless mode, then opens the HTML report (cypress/reports/html/index.html) automatically for easy access.
+
+- Open the HTML Report (if generated separately):
+```bash
+npm run html
 ```
 
 ## Additional Enhancements

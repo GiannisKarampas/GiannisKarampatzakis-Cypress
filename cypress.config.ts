@@ -10,11 +10,12 @@ export default defineConfig({
     defaultCommandTimeout: 10000,
     reporter: 'cypress-mochawesome-reporter',
     reporterOptions: {
+      reportPageTitle: 'Unibet Blog Test Report',
+      reportTitle: `Test Report - ${new Date().toLocaleDateString()} - Unibet Blog`,
       charts: true,
-      reportPageTitle: 'custom-title',
       embeddedScreenshots: true,
       inlineAssets: true,
-      saveAllAttempts: false,
+      saveAllAttempts: true,
     },
 
     setupNodeEvents(on, config) {
