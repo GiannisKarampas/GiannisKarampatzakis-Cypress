@@ -59,7 +59,7 @@ npm install
 
 ## Writing and Running Tests
 
-The following test cases are covered in **cypress/integration/search/search.spec.ts:**
+The following test cases are covered in **cypress/e2e/search/**
 
 1. Valid Search Results
 Ensures that a valid search term (e.g., "football") returns relevant results containing the keyword in the search results.
