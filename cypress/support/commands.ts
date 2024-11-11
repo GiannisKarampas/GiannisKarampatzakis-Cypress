@@ -11,7 +11,6 @@ declare global {
       /**
        * Custom command to perform a search action.
        * @param term - The term to search for
-       * @example cy.search("sports")
        */
       search(term: string): Chainable<any>;
     }
