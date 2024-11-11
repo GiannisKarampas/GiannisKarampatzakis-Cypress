@@ -6,7 +6,6 @@ describe("Unibet Blog Search Feature", () => {
   });
 
   it("should display search results for a valid search term", () => {
-    // cy.get("a[title='Blog']").click()
     SearchPage.searchTerm("football");
     cy.xpath("(//div[@class='pb-4 col-md-12'])[1]").should("be.visible");
     cy.xpath("(//div[@class='card-body d-flex flex-column justify-content-between'])[1]").contains("football");
